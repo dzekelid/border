@@ -32,20 +32,6 @@ paths:
       tags:
       - Range
       - Border
-    patch:
-      summary: Update Rangeborder
-      description: Update rangeborder Update the properties of rangeborder object.
-      operationId: UpdateRangeborder
-      x-api-path-slug: workbooknamesltnamegtrangeformatbordersltsideindexgt-patch
-      parameters:
-      - in: header
-        name: Authorization
-        description: Bearer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Rangeborder
   /workbook/worksheets(&lt;id|name&gt;)/range(&lt;address&gt;)/format/borders(&lt;sideIndex&gt;):
     get:
       summary: Get Range Border
@@ -63,20 +49,6 @@ paths:
       tags:
       - Range
       - Border
-    patch:
-      summary: Update Rangeborder
-      description: Update rangeborder Update the properties of rangeborder object.
-      operationId: UpdateRangeborder
-      x-api-path-slug: workbookworksheetsltidnamegtrangeltaddressgtformatbordersltsideindexgt-patch
-      parameters:
-      - in: header
-        name: Authorization
-        description: Bearer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Rangeborder
   /workbook/tables(&lt;id|name&gt;)/columns(&lt;id|name&gt;)/range/format/borders(&lt;sideIndex&gt;):
     get:
       summary: Get Range Border
@@ -94,20 +66,6 @@ paths:
       tags:
       - Range
       - Border
-    patch:
-      summary: Update Rangeborder
-      description: Update rangeborder Update the properties of rangeborder object.
-      operationId: UpdateRangeborder
-      x-api-path-slug: workbooktablesltidnamegtcolumnsltidnamegtrangeformatbordersltsideindexgt-patch
-      parameters:
-      - in: header
-        name: Authorization
-        description: Bearer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Rangeborder
   /workbook/names(&lt;name&gt;)/range/format/borders:
     get:
       summary: List Range Border Collection
